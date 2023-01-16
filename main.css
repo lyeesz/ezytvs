@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*031b22*/
+}
+body{
+    background-color:rgb(255, 255, 255);
+}
+.header {
+
+    background:rgb(5, 12, 19);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+padding: 15px;
+/*margin-left: 15px;*/
+/*margin-right: 15px;*/
+}
+nav{
+    display: flex;
+    padding: 0% 2%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav img{
+    width: 200px;
+    
+
+}
+.nav-links{
+    text-align: right;
+}
+.header .menu-hamburger {
+    width: 35px;
+    display: none;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a {
+    color: #a7bcb9;
+    text-decoration:none;
+    border: 1px solid;
+    border-width: 15px;
+    border-color:transparent;
+    font-weight: 600;
+    font-size: 17px;
+    
+}
+.nav-links ul li :hover{
+    color: rgb(1, 11, 32);
+    background: #4fc9a0;
+    background-size: 15px;
+    transition: 0.5s;
+    border-radius: 15px;
+    
+}
+.text-box{
+    
+    padding: 75px;
+}
+@font-face {
+    font-family: 'Edo';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Edo'), url('edo.woff') format('woff');
+    }
+.text-box h1{
+    letter-spacing: 15px;
+    font-size: 90px;
+    font-weight: 100;
+    color: whitesmoke;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.Subscription {
+    text-align: center;
+    /*background-image: url(qz.jpg);*/
+    background:rgb(5, 12, 19);
+    background-position: center;
+    background-size:contain;
+    position: relative;
+    padding: 15px;
+    color: #e3e3e3;
+    /*margin-left: 15px;*/
+    /*margin-right: 15px;*/
+    border-top: 2px solid #a51d1d;
+
+    
+}
+.Subscription h1{
+    color: #f6e4ad;
+    font-size: 50px;
+    margin-top: 15px;
+    letter-spacing: 15px;
+}
+.brand-col-3{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    position: relative;
+    overflow: hidden;
+    background: transparent;
+    padding: 35px 0 35px 0;
+    border:2px solid #c94f4f;
+    margin-right: 20px;
+    
+}
+
+.row2{
+    flex-basis: 32%;
+    display:flex;
+    justify-content: space-between;
+    margin-top: 35px;  
+    margin-bottom: 35px;
+    
+}
+.brand-col-3 h1{
+    color: #a51d1d;
+    font-size: 40px;
+    letter-spacing: 2px;
+    
+}
+.brand-col-3 h2{
+    font-weight: 100;
+    color:  #fdfdfd;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 30px;
+    font-size: 18px;
+    display: inline-block ;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    
+    
+}
+.brand-col-3 h3{
+    border: 2px solid #098a7f;
+    border-radius: 15px;
+    background: transparent;
+    padding: 15px ;
+    margin-top: 15px;
+    width: 85px;
+    left: 100px;  
+    position: relative;
+    
+}
+.brand-col-3 a{
+    text-decoration: none;
+    color: #fdfdfd;
+}
+.brand-col-3:hover h3{
+    background: #244369;
+    border: 1px #098a7f;
+    border-radius: 15px;
+    transition: 1s;
+
+}
+.brand-col-3 img{
+    width:200px;
+    height: 150px;
+    
+    
+}
+.footer{
+    background:rgb(5, 12, 19);
+    /*margin-left: 15px;*/
+    /*margin-right: 15px;*/
+    padding: 15px;
+    border-top:2px solid #a51d1d;
+    
+}
+.row3{
+    flex-basis: 32%;
+    display:flex;
+    justify-content: space-between;
+    margin-top: 35px;  
+    margin-bottom: 35px;
+    
+}
+.footer-col h1{
+    margin-bottom: 15px;
+    font-size: 25px;
+    color: #098a7f;
+    
+}
+.footer-col h3{
+    font-weight:  100;
+    color: whitesmoke;
+    line-height: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer-col a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.down{
+display: flex;
+justify-content: space-between;
+align-items: center;
+/*margin-left: 15px;
+margin-right: 15px;*/
+background:rgb(5, 12, 19);
+border-top:2px solid #a51d1d;
+/*margin-bottom: 15px;*/
+}
+.down img{
+    width: 150px;
+}
+.copy h1{
+    font-weight: 100;
+    margin-right: 15px;
+    color: #fdfdfd;
+}
+@media only screen and (max-width: 1024px){
+    nav img{
+        width: 100px;
+        margin-top: 20px;
+        
+    }
+    .text-box h1{
+        font-size: 75px;
+        letter-spacing: 12px;
+        margin-left: 0px;
+        margin-right: 35px;
+    }
+    .Subscription{
+        max-width: 1200px;
+    }
+    .row2{
+        display: block;
+    }
+    .brand-col-3 h3{
+        border: 2px solid #098a7f;
+        border-radius: 15px;
+        background: transparent;
+        padding: 15px ;
+        margin-top: 15px;
+        width: 85px;
+        left: 0px;  
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .brand-col-3 img{
+        width:200px;
+        height: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        
+        
+    }
+    .footer{
+        padding: 5px;
+    }
+    .footer-col h1{
+        font-size: 15px;
+        
+    }
+    .footer-col h3{
+        font-size: 13px;
+    }
+    .down img{
+        width: 80px;
+    }
+    .copy h1{
+        font-weight: 100;
+        margin-right: 15px;
+        color: #fdfdfd;
+        font-size: 12px;
+
+    }
+    .nav-links{
+        /* text-align: right;
+         margin-bottom: 50px;*/
+         position: absolute;
+         /*display: flex;
+         flex-direction: column;*/
+         background-color: #03070898;
+         width: 100%;
+         height: 100vh;
+         top: 0%;
+         left: 0;
+         border-radius: 0%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         backdrop-filter: blur(9px);
+         margin-left: -100%;
+         transition: 0.5s;
+         z-index: 10;
+         
+     }
+     .header .menu-hamburger{
+         display: block;
+         position: absolute;
+         right: 25px;
+         z-index: 10;
+         width: 50px;
+         margin-top: 10px;
+     }
+     .header .mobile-menu{
+         margin-left: 0%;
+     }
+     
+     .nav-links ul  {
+         /*list-style: none;
+         display: block;
+         padding: 8px 12px;
+         position: relative;*/
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         
+     }
+     .nav-links ul li a {
+         border: 1px solid;
+         border-width: 15px;
+         border-color:transparent;
+         font-weight: 600;
+         font-size: 17px;
+         margin-top: 8px;
+         color: #f6f6f698;
+     }
+     .nav-links ul li .active{
+         background: none;
+     }
+ }

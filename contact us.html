@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with =device-width, initial-scale=1.0">
+        <title>CONTACT</title>
+        <link rel="stylesheet" href="contact.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="Logo de Chaîne YouTube d'Actualités Professionnel Noir Vert Foncé Citron et Blanc.png" ></a>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="shop.html">SHOP</a></li>
+                        <li><a href="contact us.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <img src="icons8-menu-78.png" class="menu-hamburger">
+            </nav>
+            <div class="text-box">
+                <h1>CONTACT US</h1>
+            </div>
+        </section>
+        <form>
+            <table>
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" name="Name"></td>
+                </tr>
+                <tr>
+                    <td>Phone:</td>
+                    <td><input type="tel" name="Phone"></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" name="Mail"></td>
+                </tr>
+                <tr>
+                    <td>Subject:</td>
+                    <td><input type="text" name="Subject"></td>
+                </tr>
+                <tr>
+                    <td>Message:</td>
+                    <td><textarea type="text" name="Message"></textarea> </td>
+                </tr>
+                
+            </table>
+            <button type="submit" >Send</button>
+            
+        </form>
+        <section class="footer">
+            <div class="row3">
+                <div class="footer-col">
+                    <h1>Contact Info</h1>  
+                    
+                    </div>
+                
+                <div class="footer-col">
+                    <h1>Categories</h1>
+                    <h3> <a href="index.html">Home</a></h3>
+                    <h3> <a href="shop.html">Shop</a> </h3>
+                    <h3> <a href="contact us.html">Contact</a> </h3>
+                    </div>
+                <div class="footer-col">
+                        <h1>About Company</h1>
+                   <h3> <a href="privacy.html"> Privacy Policy </a> </h3>      
+                    <h3> <a href="refunds.html">Refunds and returns Policy</a> </h3>
+                    <h3><a href="">Terms of Service</a> </h3>
+                </div> 
+            </div>
+        </section>
+        <section class="down">
+            <a href="index.html"><img src="Logo de Chaîne YouTube d'Actualités Professionnel Noir Vert Foncé Citron et Blanc.png" ></a>
+            <div class="copy">
+                <h1>Copyright © 2023. All Rights Reserved</h1>
+            </div>
+        </section>
+    </body> 
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact.php">
+        <script>
+            const menuHamburger = document.querySelector(".menu-hamburger")
+        const navLinks = document.querySelector(".nav-links")
+    
+        menuHamburger.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</html>
